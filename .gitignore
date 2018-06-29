@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/RoboTrader.WebApi/DesignTimeBuild
+/.vs
+/Robotrader.Business/bin/Debug/netcoreapp2.0
+/Robotrader.Business/obj
+/Robotrader.Business.Test/bin/Debug/netcoreapp2.0
+/Robotrader.Business.Test/obj/Debug/netcoreapp2.0
+/Robotrader.Business.Test/obj
+/RoboTrader.WebApi/bin/Debug/netcoreapp2.0
+/RoboTrader.WebApi/obj
