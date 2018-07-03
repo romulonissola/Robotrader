@@ -20,6 +20,5 @@ namespace Robotrader.Business
             
             return output[length -1];
         }
-
     }
 }
