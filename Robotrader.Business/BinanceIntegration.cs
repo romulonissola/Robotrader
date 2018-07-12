@@ -1,4 +1,5 @@
-﻿using Robotrader.Business.Entities.IntegrationEntities.Binance;
+﻿using Robotrader.Business.Contracts;
+using Robotrader.Business.Entities.IntegrationEntities.Binance;
 using Robotrader.Business.Utils;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Robotrader.Business
 {
-    public class BinanceIntegration
+    public class BinanceIntegration : IExchangeIntegration
     {
         private HttpClientFactory _httpClientFactory;
         public BinanceIntegration(string apiURL)

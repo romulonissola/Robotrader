@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Globalization;
 using Xunit;
 
 namespace Robotrader.Business.Test
@@ -40,7 +41,7 @@ namespace Robotrader.Business.Test
                 5886.09
             };
             var sma = calcHelper.ExponencialMovingAverage(2, listToCalc);
-            Assert.Equal("5881,4464", sma.ToString("0000.0000"));
+            Assert.Equal("5881.4464", sma.ToString("0000.0000", new CultureInfo("en-US")));
         }
     }
 }

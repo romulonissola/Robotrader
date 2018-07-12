@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using TicTacTec.TA.Library;
 using System;
+using Robotrader.Business.Contracts;
 
 namespace Robotrader.Business
 {
-    public class CalculationHelper
+    public class CalculationHelper : ICalculationHelper
     {
         public double SimpleMovingAverage(int period, List<double> prices)
         {
