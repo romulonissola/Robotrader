@@ -24,7 +24,6 @@ namespace Robotrader.Business.Test
         [Fact]
         public void ShouldStartNewTrader()
         {
-
             var pairs = new List<string>()
             {
                 "BTCUSDT",
